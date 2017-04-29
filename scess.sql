@@ -14,7 +14,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for acceso
 -- ----------------------------
-DROP TABLE IF EXISTS `acceso`;
+DROP TABLE IF EXISTS `ACCESO`;
 CREATE TABLE `acceso` (
 `Id_acceso`  int(10) UNSIGNED NOT NULL AUTO_INCREMENT ,
 `Id_persona`  int(10) UNSIGNED NULL DEFAULT NULL ,
